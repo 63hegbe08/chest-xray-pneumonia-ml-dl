@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+# Data and training artefacts (large; not versioned)
+data/
+chest_xray/
+archive*/
+backup_*/
+*.npz
+!results/predictions.npz
+stage1_best.keras
+stage2_best.keras
+head_model.keras
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

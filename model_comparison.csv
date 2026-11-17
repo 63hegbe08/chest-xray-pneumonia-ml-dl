@@ -1,0 +1,9 @@
+model,set,accuracy,precision,recall,specificity,AUC
+Logistic Regression,val,0.9733,0.9884,0.9758,0.966,0.9969
+Logistic Regression,test,0.8077,0.77,0.9872,0.5085,0.9441
+SVM (RBF),val,0.9657,0.9759,0.9783,0.9283,0.9947
+SVM (RBF),test,0.8173,0.7771,0.9923,0.5256,0.9584
+Random Forest,val,0.9524,0.9554,0.9822,0.8642,0.988
+Random Forest,test,0.7628,0.7266,0.9949,0.3761,0.9656
+MobileNetV2 fine-tuned (DL),val,0.9095,0.9943,0.8841,0.9849,0.9905
+MobileNetV2 fine-tuned (DL),test,0.9247,0.9235,0.959,0.8675,0.9761
